@@ -1,0 +1,56 @@
+Asagidaki parametrlerden ibaret Book Classi yaradiriq
+
+
+Id mehsul identifisikasiya nomresini ifade edir. 
+
+Meselen, eger janr(Genre)  Fantastikdir ve mehsul 1-ci yaranmis Book obyektidirse, value F1001 olur. 
+Yeni Id deyeri kitabin tipinin bas herfi ve necenci yaranmis obyekt olmasinda ibaretdir(Siralama 1000den baslayir)
+
+BookName - kitabin adini ifade edir
+Price - kitabin qiymetini ifade edir
+DiscountPrice - kitabin endirimli qiymetini ifade edir
+ProductGenre- kitabin janrini ifade edir
+TotalCount- bu class-dan nece obyekt yaradildigini gosterir
+
+Kitabin Genre deyeri ProductGenre enumdir. Genre deyeri  Classic, Comic, Detective ve s ola biler. 
+
+Book obyekti yaradilarken Genre ve Price dyerleriningonderilmesi mecburidir. Eger Genre Comic olarsa, kitabin qiymetine (Price) 20% endirim olunmalidir.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Task 1)
+a)String ücün SecretBannedWords() extension method yazin, ona verilen banned sözləri "Oops"-lasin.
+b)BannedWords addinda istifadesi qadağan olun string array yaradin və icini müxtəlif sözlərlə doldurun.
+
+Task 2)
+int ücün Add(int x) extension method yazin, cağırarkən ötürülən rəqəmi üstünə gəlsin. 
+
+Task 3)
+Extension method yaziriq, bir string qəbul edir,birde int gelir, verilen eded tekdirse geriye sözü qaytarır, cütdürsə sözə 's əlaye edir qaytarir.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f
