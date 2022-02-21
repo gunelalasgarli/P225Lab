@@ -84,30 +84,30 @@ namespace Task3
         }
 
         #region Task2 
-        static void SoyusSoyme(string[] cumle)
-        {
-            string[] arr = {"essek","badimcan","xiyar"};
+        //static void SoyusSoyme(string[] cumle)
+        //{
+        //    string[] arr = {"essek","badimcan"};
 
 
 
-            for (int i = 0; i < arr.Length; i++)
-            {
-                for (int j = 0; j < cumle.Length; j++)
-                {
-                    if (cumle[j].ToLower()==arr[i].ToLower())
-                    {
-                        cumle[j] = "Cammatin anasi bajsi var";
-                    }
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        for (int j = 0; j < cumle.Length; j++)
+        //        {
+        //            if (cumle[j].ToLower()==arr[i].ToLower())
+        //            {
+        //                cumle[j] = "Oops";
+        //            }
                     
-                }
-            }
+        //        }
+        //    }
             
-            foreach (var item in cumle)
-            {
-                Console.WriteLine(item);
-            }
+        //    foreach (var item in cumle)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
 
-        }
+        //}
         #endregion
     }
 }
