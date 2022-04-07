@@ -1,0 +1,28 @@
+1.Ədədi tərsinə çevirn bir js function yazın
+
+Example x = 32243;
+Expected Output: 34223
+
+2. Sözdəki stringlərin bütün kombinasiyalarını qaytaran js function yazın
+
+Example string: 'dog'
+Expected Output: 
+d,
+o,
+do,
+g,
+dg,
+og,
+dog
+
+3. Verilən sözdəki hərfləri əlifba sırası ilə düzən js function yazın
+
+Example string: 'webmaster'
+Expected Output: 'abeemrstw'
+
+4. Sətri parametr kimi qəbul edən və sətrin hər sözünün ilk hərfini böyük hərflərə çevirən Js funksiyası yazın.
+
+Example string: 'code academy students'
+Expected Output: 'Code Academy Students'
+
+5. Ədədin sadə və ya mürəkkəbliyini tapan və true/false dəyəri geri qaytaran js funksiyası yazın
